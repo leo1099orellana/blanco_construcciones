@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import InfoBar from "./components/InfoBar";
@@ -10,11 +9,6 @@ import Footer from "./components/Footer";
 import WhatsAppFab from "./components/WhatsAppFab";
 
 export default function App() {
-  useEffect(() => {
-    if (history.scrollRestoration) history.scrollRestoration = "manual";
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <>
       <Header />
