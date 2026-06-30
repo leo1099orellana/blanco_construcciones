@@ -56,7 +56,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative flex items-center overflow-hidden min-h-[calc(100vh-72px)] mt-18"
+      className="relative flex items-center overflow-hidden py-16 md:py-20"
       style={{
         background:
           "radial-gradient(900px 500px at 78% 20%, rgba(214,31,43,.18), transparent 60%), linear-gradient(135deg, #0c0c0e 0%, #161619 55%, #0c0c0e 100%)",
@@ -74,7 +74,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="max-w-[1240px] mx-auto px-6 w-full relative z-10 py-10 md:py-12">
+      <div className="max-w-[1240px] mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left */}
           <div>
